@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 50px;
+    height: 70px;
+    background-color:rgb(153, 114, 243);
+    padding: 10px 0;
+} */
+/* .menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+} */
+/* .logo-img {
+    height: 40px;
+}
+.menu-icon {
+    font-size: 2.4em;
+    color: #ffffff;
+    line-height: 50px;
+} */
+/* nav {
+    position: absolute;
+    background-color: #3D4852;
+    top:70px;
+    left:0;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+nav ul li {
+    padding: 0 5px;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 12px;
+    color: #DAE1E7;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #eb6f4a;
+} */
+#checkbox {
+    display: none;
+}
+#checkbox:checked ~ nav ul {
+    max-height: 300px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+/* @media (min-width: 450px) { 
+    .menu-icon {
+        display: none;
+
+    }
+    nav {
+        position: 30px center;
+        top: -10px;
+        background-color: transparent;
+    }
+    nav ul {
+        max-height: 70px;
+        padding: 15px 0;
+        text-align: right;
+    }
+    nav ul li {
+        display: inline-flex;
+        padding-left: 30px;
+    }
+} */
+
+h1{
+    font-size: 2.2em;
+    text-align: center;
+    padding: 60px 40px 30px;
+    color: #3D4852;
+    line-height: 1.2;
+}
+h2{
+    color:black;
+    font-family: Gill 'Times New Roman', Times, serif;
+}
+p{
+    line-height: 1.6;
+    font-size: 1.2em;
+    padding: 0 40px;
+    text-align: center;
+    color: #3D4852;
+}
+section {
+    height: 100vh;
+    border: 1px solid block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+/* #home .profile-img {
+    width: 200px;
+    border-radius: 50%;
+} */
+footer {
+    text-align: center;
+    padding: 50px;
+}
+#home h1 {
+    font-size: 3em;
+}
+section h2 {
+    font-size: 2.5em;
+}
+section h3 {
+    font-size: 1.5em;
+}
+/* header a {
+    text-decoration: none;
+    color: black;
+} */
+/* #home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://bit.ly/3cfegR1');
+}
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://bit.ly/31l5z5n');
+    font-size: large;
+    font-weight:bold;
+}
+#skills{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://bit.ly/3bze8eQ');
+    font-size: large;
+    font-weight:bold;
+}
+#quali{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://bit.ly/3oxenNE');
+    font-size: large;
+    font-weight:bold;
+}
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://bit.ly/3mFyEkv');
+    font-size: large;
+    font-weight:bold;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#77bbe7, #f1f380);
+    height: 100vh;
+  }
+  #one {
+    word-spacing: 280px;
+  }
+  .filter{
+    filter:contrast(180%);
+  }
